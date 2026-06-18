@@ -1,7 +1,7 @@
 {
   "focus": "running",
   "meta": {
-    "description": "Sidelined by runner's knee, IT band, shin splints, or Achilles pain? Trampis PT in Seneca helps runners get back to the road — pain-free. Claim your $97 eval.",
+    "description": "Sidelined by runner's knee, IT band pain, shin splints, or Achilles trouble? Our running-focused PTs in Seneca, SC get you back to pain-free miles. Claim your $97 eval.",
     "domain": "YOUR-CLIENT-DOMAIN.com"
   },
   "brand": {
@@ -71,32 +71,32 @@
   "pages": {
     "index": {
       "title": "Trampis PT — Run Pain-Free Again | Seneca, SC",
-      "description": "Sidelined by runner's knee, IT band, shin splints, or Achilles pain? Trampis PT in Seneca helps runners get back to the road — pain-free. Claim your $97 eval.",
+      "description": "Sidelined by runner's knee, IT band pain, shin splints, or Achilles trouble? Our running-focused PTs in Seneca get you back to pain-free miles. Claim your $97 eval.",
       "blocks": [
         {
           "type": "hero",
-          "eyebrow": "Seneca, SC · For runners who refuse to quit",
-          "headline": "Get back to running — without pain or the fear of breaking down again",
-          "subhead": "Runner's knee, IT band, shin splints, Achilles, plantar fasciitis — we find why it keeps happening and build the gait and strength to keep it gone for good.",
+          "eyebrow": "Seneca, SC · For runners who refuse to stop running",
+          "headline": "Get back to running — and hit your goals — without pain or fear of re-injury",
+          "subhead": "Runner's knee, IT band, shin splints, Achilles, plantar fasciitis. We find what's really driving your pain and build a smart return-to-run plan around the miles you want to run.",
           "cta": "CLAIM YOUR $97 EVAL NOW",
           "image": "assets/hero.jpg"
         },
         {
           "type": "checklist",
           "soft": true,
-          "headline": "Does running feel like one step forward, two steps back?",
-          "body": "You're not too old, too slow, or too broken to run. If any of this hits home, you're exactly who we built this for:",
+          "headline": "Is pain stealing your miles?",
+          "body": "You don't have to settle for shorter runs or sitting out your next race. If any of this sounds like you, you're exactly who we built this for:",
           "items": [
-            "The pain returns the moment you add miles back in",
-            "You've been told to just rest, ice, and stop running",
-            "Nobody ever looked at how you actually run",
-            "You're skipping races because you don't trust your body"
+            "The pain flares up the second your mileage starts to climb",
+            "You've been told to 'just rest' — but it always comes back when you run again",
+            "Generic stretches and new shoes haven't fixed the real problem",
+            "You're starting to wonder if your goal race is even realistic"
           ]
         },
         {
           "type": "ctaBand",
-          "headline": "If any of that sounds like you, we can help.",
-          "body": "There's a reason it keeps coming back — and a clear path to running pain-free again.",
+          "headline": "If that sounds like your training right now, we can help.",
+          "body": "There's a reason the pain keeps coming back — and a clear path to running through it.",
           "cta": "CLAIM YOUR $97 EVAL"
         },
         {
@@ -104,19 +104,19 @@
           "headline": "Every week you wait, the goal slips further away",
           "items": [
             {
-              "icon": "⚠️",
-              "title": "Afraid every run is a gamble",
-              "body": "You hold back on pace and distance because you never know when the pain will flare and set you back again."
+              "icon": "📉",
+              "title": "Losing your fitness",
+              "body": "Time off doesn't just hurt — it erodes the endurance and base you spent months building. Every layoff sets you back."
             },
             {
               "icon": "🔁",
-              "title": "The same injury, on repeat",
-              "body": "Rest calms it down, then it returns the second you ramp your mileage. The cycle never actually ends."
+              "title": "Stuck in the flare-up cycle",
+              "body": "Rest a week, run, hurt again. The pattern never breaks because nobody fixed what's actually causing it."
             },
             {
-              "icon": "📉",
-              "title": "Fitness and race goals fading",
-              "body": "Every week off the road costs you endurance, speed, and the race you've been training for. Waiting is expensive."
+              "icon": "🏁",
+              "title": "Watching the calendar",
+              "body": "Race day isn't moving. The longer this drags on, the smaller your window to train and toe the line healthy."
             }
           ]
         },
@@ -125,28 +125,28 @@
           "id": "why-us",
           "soft": true,
           "headline": "Why runners choose Trampis PT",
-          "intro": "We don't hand you a hot pack and tell you to stop running. We analyze how you move, find the real driver, and build a smart return-to-run plan around your goals.",
+          "intro": "We're not a hot-pack-and-handout clinic. We're runners who treat runners — we find the root cause, fix your mechanics, and get you back on the road for good.",
           "items": [
             {
               "icon": "🎥",
               "title": "Full running gait analysis",
-              "body": "A 90-minute, head-to-toe evaluation including video gait analysis to find the real mechanics behind your pain."
+              "body": "A 90-minute, head-to-toe evaluation with video gait analysis that reveals the real driver of your pain — not just where it hurts."
             },
             {
               "icon": "🎯",
-              "title": "A plan built for your mileage",
-              "body": "One-on-one care and a custom plan built around your race goals, weekly mileage, and training schedule."
+              "title": "A plan built for your goals",
+              "body": "One-on-one care mapped to your weekly mileage, your race date, and how your body responds — not a generic protocol."
             },
             {
-              "icon": "🛡️",
-              "title": "A smart return-to-run progression",
-              "body": "We rebuild strength and mechanics and ramp you back step by step — so the injury stays gone, not just until next week."
+              "icon": "📈",
+              "title": "A smart return-to-run",
+              "body": "We rebuild your strength and mechanics and progress your mileage the right way, so the pain stays gone and you come back stronger."
             }
           ]
         },
         {
           "type": "ctaBand",
-          "headline": "Ready to find out why it keeps coming back?",
+          "headline": "Ready to find out what's really stopping your stride?",
           "body": "Your $97 eval includes a full 90-minute one-on-one assessment and gait analysis with a Doctor of Physical Therapy.",
           "cta": "CLAIM YOUR $97 EVAL"
         },
@@ -157,15 +157,15 @@
           "steps": [
             {
               "title": "Claim your $97 evaluation",
-              "body": "Book your 90-minute assessment online in under a minute. No referral needed."
+              "body": "Book your 90-minute running assessment online in under a minute. No referral needed."
             },
             {
               "title": "Get a real diagnosis & gait analysis",
-              "body": "We find the root cause everyone else missed and map out exactly how we'll get you running again."
+              "body": "We pinpoint the root cause everyone else missed and map out exactly how we'll fix it."
             },
             {
-              "title": "Get back on the road — for good",
-              "body": "Follow a smart return-to-run plan with a coach in your corner and hit your mileage without fear of re-injury."
+              "title": "Get back to running — for good",
+              "body": "Follow a smart return-to-run plan with a coach in your corner and hit your mileage and race goals without fear of re-injury."
             }
           ]
         },
@@ -173,7 +173,7 @@
           "type": "testimonials",
           "id": "reviews",
           "soft": true,
-          "headline": "Seneca runners who got back to the road",
+          "headline": "Seneca runners who got their miles back",
           "items": [
             {
               "name": "Ean V",
@@ -194,7 +194,7 @@
         },
         {
           "type": "ctaBand",
-          "headline": "Your next PR starts with one assessment.",
+          "headline": "Your next PR starts with one call.",
           "body": "Spots for the $97 running evaluation are limited each week. Claim yours before they're gone.",
           "cta": "CLAIM YOUR $97 EVAL NOW"
         },
@@ -202,8 +202,9 @@
           "type": "embed",
           "id": "book",
           "headline": "Claim your $97 evaluation",
-          "intro": "Fill out the form and we'll be in touch to lock in your 90-minute assessment and gait analysis. Every CTA on this page scrolls here.",
-          "html": "<script src=\"https://js.hsforms.net/forms/embed/22001532.js\" defer></script> <div class=\"hs-form-frame\" data-region=\"na1\" data-form-id=\"1985f843-4b6c-4b45-9c44-135082fe2cf2\" data-portal-id=\"22001532\"></div>"
+          "intro": "Fill out the form and we'll be in touch to lock in your 90-minute assessment.",
+          "html": "<script src=\"https://js.hsforms.net/forms/embed/22001532.js\" defer></script> <div class=\"hs-form-frame\" data-region=\"na1\" data-form-id=\"1985f843-4b6c-4b45-9c44-135082fe2cf2\" data-portal-id=\"22001532\"></div>",
+          "modal": true
         }
       ]
     }
