@@ -1,17 +1,16 @@
 {
-  "_comment": "SINGLE-PAGE LANDER. Everything a client edits lives here. build.js is never touched. The `focus` field documents which copy angle this lander uses; the orchestrator seeds copy from it. Swap the bracketed/placeholder values per client.",
-  "focus": "pt-didnt-work",
+  "focus": "running",
   "meta": {
-    "description": "Tried physical therapy before and it didn't work? Our expert sports PTs in Charleston help active adults get back to what they love — pain-free. Claim your $97 eval.",
+    "description": "Sidelined by runner's knee, IT band, shin splints, or Achilles pain? Trampis PT in Seneca helps runners get back to the road — pain-free. Claim your $97 eval.",
     "domain": "YOUR-CLIENT-DOMAIN.com"
   },
   "brand": {
-    "name": "Made 2 Move Physical Therapy",
-    "logoText": "MADE 2 MOVE",
-    "logoImage": "",
-    "city": "Charleston, SC",
-    "phone": "(843) 555-0100",
-    "email": "hello@YOUR-CLIENT-DOMAIN.com",
+    "name": "Trampis PT",
+    "logoText": "TRAMPIS PT",
+    "logoImage": "assets/logo.png",
+    "city": "Seneca, SC",
+    "phone": "(864) 555-0100",
+    "email": "trampisbeatty87@icloud.com",
     "primaryCta": "CLAIM YOUR $97 EVAL NOW",
     "headerCta": "Claim Your $97 Eval",
     "primaryCtaUrl": "#book",
@@ -20,95 +19,135 @@
       "detail": "A 90-minute one-on-one assessment with a Doctor of Physical Therapy — normally $250."
     },
     "colors": {
-      "primary": "#13294B",
-      "primaryDark": "#0C1B33",
+      "primary": "#005FCC",
+      "primaryDark": "#282828",
       "ink": "#16181D",
       "muted": "#5B6470",
       "bg": "#FFFFFF",
-      "soft": "#F2F5FA",
+      "soft": "#F0F5FC",
       "line": "#E4E8EF"
     }
   },
   "nav": [
-    { "label": "Why Choose Us", "url": "#why-us" },
-    { "label": "How It Works", "url": "#how-it-works" },
-    { "label": "Reviews", "url": "#reviews" }
+    {
+      "label": "Why Choose Us",
+      "url": "#why-us"
+    },
+    {
+      "label": "How It Works",
+      "url": "#how-it-works"
+    },
+    {
+      "label": "Reviews",
+      "url": "#reviews"
+    }
   ],
   "footer": {
-    "locations": ["123 Main Street, Charleston, SC 29401"],
-    "hours": ["Monday–Friday: 7:00am–7:00pm", "Saturday: By Appointment"],
+    "locations": [
+      "Seneca, SC"
+    ],
+    "hours": [
+      "Monday–Friday: 7:00am–7:00pm"
+    ],
     "links": [
-      { "label": "Why Choose Us", "url": "#why-us" },
-      { "label": "How It Works", "url": "#how-it-works" },
-      { "label": "Reviews", "url": "#reviews" },
-      { "label": "Privacy Policy", "url": "#" }
+      {
+        "label": "Why Choose Us",
+        "url": "#why-us"
+      },
+      {
+        "label": "How It Works",
+        "url": "#how-it-works"
+      },
+      {
+        "label": "Reviews",
+        "url": "#reviews"
+      },
+      {
+        "label": "Privacy Policy",
+        "url": "#"
+      }
     ]
   },
   "pages": {
     "index": {
-      "title": "Made 2 Move Physical Therapy — PT That Actually Works | Charleston, SC",
-      "description": "Tried PT before and it didn't work? Our expert sports PTs in Charleston help active adults get back to what they love — pain-free. Claim your $97 eval.",
+      "title": "Trampis PT — Run Pain-Free Again | Seneca, SC",
+      "description": "Sidelined by runner's knee, IT band, shin splints, or Achilles pain? Trampis PT in Seneca helps runners get back to the road — pain-free. Claim your $97 eval.",
       "blocks": [
         {
           "type": "hero",
-          "eyebrow": "Charleston, SC · For active adults who've tried PT before",
-          "headline": "Let our team of expert sports PTs show you that PT WORKS",
-          "subhead": "Get back to doing what you love — pain-free. If physical therapy let you down before, it's because it wasn't built for an active body like yours.",
+          "eyebrow": "Seneca, SC · For runners who refuse to quit",
+          "headline": "Get back to running — without pain or the fear of breaking down again",
+          "subhead": "Runner's knee, IT band, shin splints, Achilles, plantar fasciitis — we find why it keeps happening and build the gait and strength to keep it gone for good.",
           "cta": "CLAIM YOUR $97 EVAL NOW",
           "image": "assets/hero.jpg"
         },
         {
           "type": "checklist",
           "soft": true,
-          "headline": "Tried PT before and nothing really changed?",
-          "body": "You're not broken, and you're not out of options. If any of this sounds familiar, you're exactly who we built this for:",
+          "headline": "Does running feel like one step forward, two steps back?",
+          "body": "You're not too old, too slow, or too broken to run. If any of this hits home, you're exactly who we built this for:",
           "items": [
-            "The pain came back the moment you got active again",
-            "You got a sheet of generic exercises and a hot pack",
-            "Nobody ever found the real reason you were hurting",
-            "You're starting to believe you just have to live with it"
+            "The pain returns the moment you add miles back in",
+            "You've been told to just rest, ice, and stop running",
+            "Nobody ever looked at how you actually run",
+            "You're skipping races because you don't trust your body"
           ]
         },
         {
           "type": "ctaBand",
           "headline": "If any of that sounds like you, we can help.",
-          "body": "There's a reason it didn't work last time — and a clear path to fixing it.",
+          "body": "There's a reason it keeps coming back — and a clear path to running pain-free again.",
           "cta": "CLAIM YOUR $97 EVAL"
         },
         {
-          "type": "testimonials",
-          "headline": "Don't take our word for it",
-          "items": [
-            { "name": "Van K.", "rating": 5, "quote": "Without Made 2 Move, I would have completely given up on running. They found what three other clinics missed." },
-            { "name": "Addisen S.", "rating": 5, "quote": "I was in enough hip pain that a run was no fun at all. So glad I made the call — I'm back to training pain-free." },
-            { "name": "Ashley R.", "rating": 5, "quote": "After years of being told to just rest, they actually fixed the root cause. I wish I'd come here first." }
-          ]
-        },
-        {
           "type": "cards",
-          "headline": "Don't let an old injury derail your goals",
+          "headline": "Every week you wait, the goal slips further away",
           "items": [
-            { "icon": "⚠️", "title": "Afraid of making it worse", "body": "You've stopped doing what you love because every flare-up feels like a setback you can't afford." },
-            { "icon": "🔁", "title": "Pain that keeps coming back", "body": "Rest helps for a week, then it returns the moment you get active again. The cycle never ends." },
-            { "icon": "📉", "title": "Losing ground every month", "body": "The longer it drags on, the more strength, fitness, and confidence you give up. Waiting costs you." }
+            {
+              "icon": "⚠️",
+              "title": "Afraid every run is a gamble",
+              "body": "You hold back on pace and distance because you never know when the pain will flare and set you back again."
+            },
+            {
+              "icon": "🔁",
+              "title": "The same injury, on repeat",
+              "body": "Rest calms it down, then it returns the second you ramp your mileage. The cycle never actually ends."
+            },
+            {
+              "icon": "📉",
+              "title": "Fitness and race goals fading",
+              "body": "Every week off the road costs you endurance, speed, and the race you've been training for. Waiting is expensive."
+            }
           ]
         },
         {
           "type": "cards",
           "id": "why-us",
           "soft": true,
-          "headline": "Why Made 2 Move is different",
-          "intro": "We don't do hot packs and band-aids. We find why the last attempt failed and build a plan around the active life you actually want.",
+          "headline": "Why runners choose Trampis PT",
+          "intro": "We don't hand you a hot pack and tell you to stop running. We analyze how you move, find the real driver, and build a smart return-to-run plan around your goals.",
           "items": [
-            { "icon": "🔎", "title": "Full movement assessment", "body": "A 90-minute, head-to-toe evaluation that finds the real driver of your pain — not just where it hurts." },
-            { "icon": "🎯", "title": "A plan built for your body", "body": "One-on-one care and a custom plan built around your sport, your goals, and your schedule." },
-            { "icon": "🛡️", "title": "So it doesn't come back", "body": "We rebuild the strength and mechanics that keep the pain gone for good — not just until next week." }
+            {
+              "icon": "🎥",
+              "title": "Full running gait analysis",
+              "body": "A 90-minute, head-to-toe evaluation including video gait analysis to find the real mechanics behind your pain."
+            },
+            {
+              "icon": "🎯",
+              "title": "A plan built for your mileage",
+              "body": "One-on-one care and a custom plan built around your race goals, weekly mileage, and training schedule."
+            },
+            {
+              "icon": "🛡️",
+              "title": "A smart return-to-run progression",
+              "body": "We rebuild strength and mechanics and ramp you back step by step — so the injury stays gone, not just until next week."
+            }
           ]
         },
         {
           "type": "ctaBand",
-          "headline": "Ready to find out why it didn't work last time?",
-          "body": "Your $97 eval includes a full 90-minute one-on-one assessment with a Doctor of Physical Therapy.",
+          "headline": "Ready to find out why it keeps coming back?",
+          "body": "Your $97 eval includes a full 90-minute one-on-one assessment and gait analysis with a Doctor of Physical Therapy.",
           "cta": "CLAIM YOUR $97 EVAL"
         },
         {
@@ -116,38 +155,55 @@
           "id": "how-it-works",
           "headline": "How it works",
           "steps": [
-            { "title": "Claim your $97 evaluation", "body": "Book your 90-minute assessment online in under a minute. No referral needed." },
-            { "title": "Get a real diagnosis & plan", "body": "We find the root cause everyone else missed and map out exactly how we'll fix it." },
-            { "title": "Get back to doing what you love", "body": "Execute the plan with a coach in your corner and return stronger — without fear of re-injury." }
+            {
+              "title": "Claim your $97 evaluation",
+              "body": "Book your 90-minute assessment online in under a minute. No referral needed."
+            },
+            {
+              "title": "Get a real diagnosis & gait analysis",
+              "body": "We find the root cause everyone else missed and map out exactly how we'll get you running again."
+            },
+            {
+              "title": "Get back on the road — for good",
+              "body": "Follow a smart return-to-run plan with a coach in your corner and hit your mileage without fear of re-injury."
+            }
           ]
         },
         {
           "type": "testimonials",
           "id": "reviews",
           "soft": true,
-          "headline": "Charleston patients who got their lives back",
-          "_reviews_modes": "THREE WAYS TO FILL THIS: (1) leave items[] as curated cards below + set googleUrl to link out to the Google profile [default/hybrid]; (2) if the client already pays for a reviews widget, set \"widgetHtml\" to their embed code and it renders the live widget instead of the cards; (3) no reviews at all -> remove items, googleUrl, widgetHtml and the section disappears.",
-          "googleUrl": "https://search.google.com/local/reviews?placeid=YOUR_PLACE_ID",
-          "googleCta": "Read all our reviews on Google ★",
+          "headline": "Seneca runners who got back to the road",
           "items": [
-            { "name": "Rachel H.", "rating": 5, "quote": "Broke my foot and thought running was over. Twelve weeks later I ran 3 miles pain-free. The team here is incredible." },
-            { "name": "Jordan P.", "rating": 5, "quote": "Knee pain I'd had for two years, gone. They adjusted the plan every week based on how I responded. Worth every penny." },
-            { "name": "Marcus T.", "rating": 5, "quote": "Other places treated the symptom. Made 2 Move found the actual problem in my hip and finally fixed it." },
-            { "name": "Dana L.", "rating": 5, "quote": "Personalized, professional, and they actually listen. I went from barely walking to back in the gym." }
+            {
+              "name": "Ean V",
+              "quote": "This guy rocks I love him.",
+              "rating": 5
+            },
+            {
+              "name": "",
+              "quote": "Hardest working guy in America!! Justin P",
+              "rating": 5
+            },
+            {
+              "name": "Kait W",
+              "quote": "Trampis helped me start running immediately!",
+              "rating": 5
+            }
           ]
         },
         {
           "type": "ctaBand",
-          "headline": "Your comeback starts with one call.",
-          "body": "Spots for the $97 evaluation are limited each week. Claim yours before they're gone.",
+          "headline": "Your next PR starts with one assessment.",
+          "body": "Spots for the $97 running evaluation are limited each week. Claim yours before they're gone.",
           "cta": "CLAIM YOUR $97 EVAL NOW"
         },
         {
           "type": "embed",
           "id": "book",
           "headline": "Claim your $97 evaluation",
-          "intro": "Fill out the form and we'll be in touch to lock in your 90-minute assessment. Every CTA on this page scrolls here.",
-          "html": ""
+          "intro": "Fill out the form and we'll be in touch to lock in your 90-minute assessment and gait analysis. Every CTA on this page scrolls here.",
+          "html": "<script src=\"https://js.hsforms.net/forms/embed/22001532.js\" defer></script> <div class=\"hs-form-frame\" data-region=\"na1\" data-form-id=\"1985f843-4b6c-4b45-9c44-135082fe2cf2\" data-portal-id=\"22001532\"></div>"
         }
       ]
     }
