@@ -1,0 +1,10 @@
+{
+  "name": "pt-lander-template",
+  "version": "1.0.0",
+  "description": "Single-page, conversion-focused PT landing page template. All client content lives in content.json; build.js renders it to static HTML. Focus-driven (running / fitness / golf / pt-didnt-work).",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "serve": "node serve.js"
+  }
+}
