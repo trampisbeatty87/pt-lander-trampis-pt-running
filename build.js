@@ -294,13 +294,23 @@ const BLOCKS = {
   // Raw HTML/script embed — used for HubSpot scheduler & form, maps, etc.
   // NOTE: html is injected verbatim (NOT escaped) because embeds need scripts.
   embed(b) {
-    return `<section class="section${b.soft ? " soft-bg" : ""}" id="${esc(b.id || "embed")}">
-    <div class="container${b.wide ? "" : " narrow"}">
-      ${b.headline ? `<h2 class="center">${esc(b.headline)}</h2>` : ""}
+    const inner = `${b.headline ? `<h2 class="center">${esc(b.headline)}</h2>` : ""}
       ${b.intro ? `<p class="lead center section-intro">${esc(b.intro)}</p>` : ""}
       <div class="embed-wrap">
-        ${b.html || `<p class="embed-placeholder">[ Embed not configured — paste your HubSpot embed code into this block's <code>html</code> field in content.json ]</p>`}
-      </div>
+        ${b.html || `<p class="embed-placeholder">[ Embed not configured — paste your HubSpot/GHL embed code into this block's <code>html</code> field in content.json ]</p>`}
+      </div>`;
+    // Modal mode: render a hidden overlay any CTA (href="#<id>") opens via JS.
+    if (b.modal) {
+      return `<div class="modal-overlay" id="${esc(b.id || "modal")}" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true">
+      <button class="modal-close" type="button" data-close-modal aria-label="Close">&times;</button>
+      ${inner}
+    </div>
+  </div>`;
+    }
+    return `<section class="section${b.soft ? " soft-bg" : ""}" id="${esc(b.id || "embed")}">
+    <div class="container${b.wide ? "" : " narrow"}">
+      ${inner}
     </div>
   </section>`;
   },
@@ -507,7 +517,22 @@ function renderFooter(content) {
     <div class="container footer-bottom">
       <p>© <span id="year"></span> ${esc(content.brand.name)}. All rights reserved.</p>
     </div>
-    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+      (function () {
+        var modal = document.querySelector('.modal-overlay');
+        if (!modal) return;
+        var id = modal.id;
+        function open() { modal.classList.add('open'); document.body.classList.add('modal-open'); }
+        function close() { modal.classList.remove('open'); document.body.classList.remove('modal-open'); }
+        document.addEventListener('click', function (e) {
+          var opener = e.target.closest('a[href="#' + id + '"]');
+          if (opener) { e.preventDefault(); open(); return; }
+          if (e.target === modal || e.target.closest('[data-close-modal]')) close();
+        });
+        document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+      })();
+    </script>
   </footer>`;
 }
 

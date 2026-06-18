@@ -64,7 +64,8 @@ img { max-width: 100%; display: block; }
 }
 .header-inner { display: flex; align-items: center; gap: 1.5rem; padding: .9rem 0; }
 .logo { font-weight: 800; font-size: 1.4rem; letter-spacing: .04em; color: var(--ink); display: inline-flex; align-items: center; }
-.logo-img { height: 34px; width: auto; display: block; }
+.logo-img { height: 56px; width: auto; max-width: 240px; display: block; }
+@media (max-width: 640px) { .logo-img { height: 44px; max-width: 170px; } }
 .nav { display: flex; gap: 1.5rem; margin-left: auto; }
 .nav a { font-weight: 600; color: var(--ink); font-size: .95rem; }
 .nav a:hover { color: var(--primary); }
@@ -161,6 +162,15 @@ img { max-width: 100%; display: block; }
 .review figcaption { font-weight: 700; color: var(--muted); }
 .reviews-cta { margin-top: 2.5rem; }
 .reviews-widget { margin-top: 2.5rem; }
+
+/* --- booking modal --- */
+.modal-overlay { display: none; position: fixed; inset: 0; z-index: 1000; background: rgba(10, 15, 25, .55); }
+.modal-overlay.open { display: flex; align-items: flex-start; justify-content: center; padding: 6vh 1rem 1rem; overflow-y: auto; }
+.modal-box { position: relative; background: var(--bg); border-radius: 18px; width: 100%; max-width: 620px; padding: 2.8rem 2rem 2.4rem; box-shadow: 0 30px 80px -20px rgba(0, 0, 0, .5); }
+.modal-box h2 { margin-top: 0; }
+.modal-close { position: absolute; top: .5rem; right: .9rem; background: none; border: 0; font-size: 2rem; line-height: 1; color: var(--muted); cursor: pointer; padding: .2rem .5rem; }
+.modal-close:hover { color: var(--ink); }
+body.modal-open { overflow: hidden; }
 
 /* --- locations --- */
 .location-card { background: #fff; border: 1px solid var(--line); border-radius: 18px; padding: 1.8rem; }
